@@ -1,0 +1,472 @@
+[Rule]
+# AI Proxy Rules - All AI Providers
+# Aggregated AI provider rules.
+# https://github.com/VPSDance/ai-proxy-rules
+
+# Adobe Firefly / Core
+DOMAIN-SUFFIX,firefly.adobe.com,AI Suite
+DOMAIN-SUFFIX,firefly.adobe.io,AI Suite
+
+# Amazon Q Developer / Core
+DOMAIN,aws-language-servers.us-east-1.amazonaws.com,AI Suite
+DOMAIN,aws-toolkit-language-servers.amazonaws.com,AI Suite
+DOMAIN,client-telemetry.us-east-1.amazonaws.com,AI Suite
+DOMAIN,codewhisperer.us-east-1.amazonaws.com,AI Suite
+DOMAIN,cognito-identity.us-east-1.amazonaws.com,AI Suite
+DOMAIN,idetoolkits-hostedfiles.amazonaws.com,AI Suite
+DOMAIN,idetoolkits.amazonwebservices.com,AI Suite
+DOMAIN,q-developer-integration.us-east-1.api.aws,AI Suite
+DOMAIN-SUFFIX,aws.dev,AI Suite
+DOMAIN-SUFFIX,awsapps.com,AI Suite
+DOMAIN-SUFFIX,awsstatic.com,AI Suite
+DOMAIN-SUFFIX,console.aws.a2z.com,AI Suite
+DOMAIN-SUFFIX,q.eu-central-1.amazonaws.com,AI Suite
+DOMAIN-SUFFIX,q.us-east-1.amazonaws.com,AI Suite
+DOMAIN-SUFFIX,sso.amazonaws.com,AI Suite
+
+# Anthropic / Core
+DOMAIN-SUFFIX,anthropic.com,AI Suite
+DOMAIN-SUFFIX,anthropic.com.cn,AI Suite
+DOMAIN-SUFFIX,antspace.dev,AI Suite
+DOMAIN-SUFFIX,clau.de,AI Suite
+DOMAIN-SUFFIX,claude.ai,AI Suite
+DOMAIN-SUFFIX,claude.app,AI Suite
+DOMAIN-SUFFIX,claude.com,AI Suite
+DOMAIN-SUFFIX,claude.new,AI Suite
+DOMAIN-SUFFIX,claude.site,AI Suite
+DOMAIN-SUFFIX,claudemcpclient.com,AI Suite
+DOMAIN-SUFFIX,claudemcpcontent.com,AI Suite
+DOMAIN-SUFFIX,claudepages.dev,AI Suite
+DOMAIN-SUFFIX,claudestudio.com,AI Suite
+DOMAIN-SUFFIX,claudeusercontent.com,AI Suite
+DOMAIN-SUFFIX,modelcontextprotocol.com,AI Suite
+DOMAIN-SUFFIX,modelcontextprotocol.io,AI Suite
+DOMAIN-SUFFIX,modelcontextprotocol.net,AI Suite
+DOMAIN-SUFFIX,modelcontextprotocol.org,AI Suite
+
+# Anthropic / Network
+IP-CIDR,160.79.104.0/21,AI Suite,no-resolve
+IP-CIDR6,2607:6bc0::/32,AI Suite,no-resolve
+IP-ASN,399358,AI Suite,no-resolve
+
+# Anthropic / Third-Party
+DOMAIN,anthropic-com.ghost.io,AI Suite
+DOMAIN,anthropic.auth0.com,AI Suite
+DOMAIN,anthropic.com.cdn.cloudflare.net,AI Suite
+DOMAIN,browser-intake-us5-datadoghq.com,AI Suite
+DOMAIN,cdn.growthbook.io,AI Suite
+DOMAIN,cdn.usefathom.com,AI Suite
+DOMAIN,servd-anthropic-website.b-cdn.net,AI Suite
+DOMAIN,storage.googleapis.com,AI Suite
+DOMAIN-SUFFIX,anthropic.team,AI Suite
+DOMAIN-SUFFIX,chatbotclaude.com,AI Suite
+DOMAIN-SUFFIX,intercom.io,AI Suite
+DOMAIN-SUFFIX,intercomcdn.com,AI Suite
+DOMAIN-SUFFIX,interface.feedback,AI Suite
+DOMAIN-SUFFIX,lcicat.org,AI Suite
+DOMAIN-SUFFIX,lcicollections.org,AI Suite
+DOMAIN-SUFFIX,mcpservertest.online,AI Suite
+DOMAIN-SUFFIX,muthos.com,AI Suite
+DOMAIN-SUFFIX,sentry.io,AI Suite
+DOMAIN-SUFFIX,sillylittleguy.org,AI Suite
+DOMAIN-SUFFIX,statsigapi.net,AI Suite
+DOMAIN-KEYWORD,datadog,AI Suite
+DOMAIN-KEYWORD,sentry,AI Suite
+DOMAIN-KEYWORD,sift,AI Suite
+
+# Augment Code / Core
+DOMAIN-SUFFIX,augmentcode.com,AI Suite
+
+# Black Forest Labs / Core
+DOMAIN-SUFFIX,bfl.ai,AI Suite
+
+# Bolt.new / Core
+DOMAIN-SUFFIX,bolt.new,AI Suite
+
+# ByteDance AI / Core
+DOMAIN-SUFFIX,abtestvm-sg.bytedance.com,AI Suite
+DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com,AI Suite
+DOMAIN-SUFFIX,byteoversea.com,AI Suite
+DOMAIN-SUFFIX,cici.com,AI Suite
+DOMAIN-SUFFIX,ciciai.com,AI Suite
+DOMAIN-SUFFIX,ciciaicdn.com,AI Suite
+DOMAIN-SUFFIX,coze.com,AI Suite
+DOMAIN-SUFFIX,lf3-static.bytednsdoc.com,AI Suite
+DOMAIN-SUFFIX,marscode.com,AI Suite
+DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com,AI Suite
+DOMAIN-SUFFIX,starling.zijieapi.com,AI Suite
+DOMAIN-SUFFIX,trae-api-sg.mchost.guru,AI Suite
+DOMAIN-SUFFIX,trae.ai,AI Suite
+DOMAIN-SUFFIX,tron-sg.bytelemon.com,AI Suite
+
+# Cerebras / Core
+DOMAIN-SUFFIX,cerebras.ai,AI Suite
+
+# Character.AI / Core
+DOMAIN-SUFFIX,character.ai,AI Suite
+
+# Chutes / Core
+DOMAIN-SUFFIX,chutes.ai,AI Suite
+
+# Civitai / Core
+DOMAIN-SUFFIX,civitai.com,AI Suite
+
+# ClipDrop / Core
+DOMAIN-SUFFIX,clipdrop.co,AI Suite
+
+# Cloudflare AI / Core
+DOMAIN-SUFFIX,ai.cloudflare.com,AI Suite
+
+# CodeRabbit / Core
+DOMAIN-SUFFIX,coderabbit.ai,AI Suite
+
+# Cohere / Core
+DOMAIN-SUFFIX,cohere.ai,AI Suite
+DOMAIN-SUFFIX,cohere.com,AI Suite
+
+# ComfyUI / Core
+DOMAIN-SUFFIX,comfy.org,AI Suite
+DOMAIN-SUFFIX,comfyregistry.org,AI Suite
+
+# Continue / Core
+DOMAIN-SUFFIX,continue.dev,AI Suite
+
+# Copilot / Core
+DOMAIN,location.microsoft.com,AI Suite
+DOMAIN,odc.officeapps.live.com,AI Suite
+DOMAIN-SUFFIX,copilot.microsoft.com,AI Suite
+DOMAIN-SUFFIX,githubcopilot.com,AI Suite
+
+# Copilot / Third-Party
+DOMAIN,api.msn.com,AI Suite
+DOMAIN,api.statsig.com,AI Suite
+DOMAIN,assets.msn.com,AI Suite
+DOMAIN,browser-intake-datadoghq.com,AI Suite
+DOMAIN,copilot-proxy.githubusercontent.com,AI Suite
+DOMAIN,copilot-workspace.githubnext.com,AI Suite
+DOMAIN,copilotprodattachments.blob.core.windows.net,AI Suite
+DOMAIN,gateway.bingviz.microsoft.net,AI Suite
+DOMAIN,gateway.bingviz.microsoftapp.net,AI Suite
+DOMAIN,in.appcenter.ms,AI Suite
+DOMAIN,self.events.data.microsoft.com,AI Suite
+DOMAIN,static.cloudflareinsights.com,AI Suite
+DOMAIN,sydney.bing.com,AI Suite
+DOMAIN-SUFFIX,algolia.net,AI Suite
+DOMAIN-SUFFIX,api.microsoftapp.net,AI Suite
+DOMAIN-SUFFIX,auth0.com,AI Suite
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,AI Suite
+DOMAIN-SUFFIX,challenges.cloudflare.com,AI Suite
+DOMAIN-SUFFIX,client-api.arkoselabs.com,AI Suite
+DOMAIN-SUFFIX,edgeservices.bing.com,AI Suite
+DOMAIN-SUFFIX,events.statsigapi.net,AI Suite
+DOMAIN-SUFFIX,featuregates.org,AI Suite
+DOMAIN-SUFFIX,identrust.com,AI Suite
+DOMAIN-SUFFIX,launchdarkly.com,AI Suite
+DOMAIN-SUFFIX,observeit.net,AI Suite
+DOMAIN-SUFFIX,segment.io,AI Suite
+DOMAIN-SUFFIX,stripe.com,AI Suite
+IP-ASN,14061,AI Suite,no-resolve
+
+# CrewAI / Core
+DOMAIN-SUFFIX,crewai.com,AI Suite
+
+# Cursor / Core
+DOMAIN-SUFFIX,cursor-cdn.com,AI Suite
+DOMAIN-SUFFIX,cursor.com,AI Suite
+DOMAIN-SUFFIX,cursor.sh,AI Suite
+DOMAIN-SUFFIX,cursorapi.com,AI Suite
+
+# DeepInfra / Core
+DOMAIN-SUFFIX,deepinfra.com,AI Suite
+
+# Descript / Core
+DOMAIN-SUFFIX,descript.com,AI Suite
+
+# Devin / Core
+DOMAIN-SUFFIX,devin.ai,AI Suite
+
+# Dia Browser / Core
+DOMAIN-SUFFIX,diabrowser.com,AI Suite
+DOMAIN-SUFFIX,diabrowser.engineering,AI Suite
+
+# Dify / Core
+DOMAIN-SUFFIX,dify.ai,AI Suite
+
+# DuckDuckGo AI / Core
+DOMAIN-SUFFIX,duck.ai,AI Suite
+
+# Eigent / Core
+DOMAIN-SUFFIX,eigent.ai,AI Suite
+
+# ElevenLabs / Core
+DOMAIN-SUFFIX,elevenlabs.com,AI Suite
+DOMAIN-SUFFIX,elevenlabs.io,AI Suite
+
+# Factory / Core
+DOMAIN-SUFFIX,factory.ai,AI Suite
+
+# Fireworks AI / Core
+DOMAIN-SUFFIX,fireworks.ai,AI Suite
+
+# Gamma / Core
+DOMAIN-SUFFIX,gamma.app,AI Suite
+
+# Genspark / Core
+DOMAIN-SUFFIX,genspark.ai,AI Suite
+
+# Google AI / Core
+DOMAIN-SUFFIX,ai.google.dev,AI Suite
+DOMAIN-SUFFIX,ai.studio,AI Suite
+DOMAIN-SUFFIX,aistudio.google.com,AI Suite
+DOMAIN-SUFFIX,antigravity.google,AI Suite
+DOMAIN-SUFFIX,antigravity.google.com,AI Suite
+DOMAIN-SUFFIX,bard.google.com,AI Suite
+DOMAIN-SUFFIX,deepmind.com,AI Suite
+DOMAIN-SUFFIX,deepmind.google,AI Suite
+DOMAIN-SUFFIX,gemini.google,AI Suite
+DOMAIN-SUFFIX,gemini.google.com,AI Suite
+DOMAIN-SUFFIX,generativeai.google,AI Suite
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI Suite
+DOMAIN-SUFFIX,notebooklm.google,AI Suite
+DOMAIN-SUFFIX,notebooklm.google.com,AI Suite
+
+# Google AI / Third-Party
+DOMAIN,alkalicore-pa.clients6.google.com,AI Suite
+DOMAIN,alkalimakersuite-pa.clients6.google.com,AI Suite
+DOMAIN,antigravity-pa.googleapis.com,AI Suite
+DOMAIN,antigravity.googleapis.com,AI Suite
+DOMAIN,cloudaicompanion.googleapis.com,AI Suite
+DOMAIN,cloudcode-pa.googleapis.com,AI Suite
+DOMAIN,daily-cloudcode-pa.googleapis.com,AI Suite
+DOMAIN,notebooklm-pa.googleapis.com,AI Suite
+DOMAIN,notebooklm.googleapis.com,AI Suite
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com,AI Suite
+DOMAIN-SUFFIX,aicode.googleapis.com,AI Suite
+DOMAIN-SUFFIX,aida.googleapis.com,AI Suite
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,AI Suite
+DOMAIN-SUFFIX,antigravity-unleash.goog,AI Suite
+DOMAIN-SUFFIX,flow.google,AI Suite
+DOMAIN-SUFFIX,geller-pa.googleapis.com,AI Suite
+DOMAIN-SUFFIX,gemini.gstatic.com,AI Suite
+DOMAIN-SUFFIX,jules.google,AI Suite
+DOMAIN-SUFFIX,jules.google.com,AI Suite
+DOMAIN-SUFFIX,labs.google,AI Suite
+DOMAIN-SUFFIX,labs.google.com,AI Suite
+DOMAIN-SUFFIX,makersuite.google.com,AI Suite
+DOMAIN-SUFFIX,opal.google,AI Suite
+DOMAIN-SUFFIX,opal.google.com,AI Suite
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI Suite
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,AI Suite
+DOMAIN-SUFFIX,stitch.withgoogle.com,AI Suite
+
+# Grammarly / Core
+DOMAIN-SUFFIX,grammarly.com,AI Suite
+
+# Groq / Core
+DOMAIN-SUFFIX,groq.com,AI Suite
+
+# H2O.ai / Core
+DOMAIN-SUFFIX,h2o.ai,AI Suite
+
+# Hermes Agent / Core
+DOMAIN-SUFFIX,hermes-agent.nousresearch.com,AI Suite
+
+# HeyGen / Core
+DOMAIN-SUFFIX,heygen.com,AI Suite
+
+# Hugging Face / Core
+DOMAIN-SUFFIX,hf.co,AI Suite
+DOMAIN-SUFFIX,hf.space,AI Suite
+DOMAIN-SUFFIX,huggingface.co,AI Suite
+
+# Ideogram / Core
+DOMAIN-SUFFIX,ideogram.ai,AI Suite
+
+# Inflection / Pi / Core
+DOMAIN-SUFFIX,inflection.ai,AI Suite
+DOMAIN-SUFFIX,pi.ai,AI Suite
+
+# Jasper / Core
+DOMAIN-SUFFIX,jasper.ai,AI Suite
+
+# JetBrains AI / Core
+DOMAIN-SUFFIX,grazie.ai,AI Suite
+DOMAIN-SUFFIX,grazie.aws.intellij.net,AI Suite
+DOMAIN-SUFFIX,jetbrains.ai,AI Suite
+
+# Kiro / Core
+DOMAIN-SUFFIX,kiro.dev,AI Suite
+
+# LangChain / Core
+DOMAIN-SUFFIX,langchain.com,AI Suite
+
+# Leonardo AI / Core
+DOMAIN-SUFFIX,leonardo.ai,AI Suite
+
+# LMArena / Core
+DOMAIN-SUFFIX,lmarena.ai,AI Suite
+
+# LM Studio / Core
+DOMAIN-SUFFIX,lmstudio.ai,AI Suite
+
+# Lovable / Core
+DOMAIN-SUFFIX,lovable.dev,AI Suite
+
+# Lovart / Core
+DOMAIN-SUFFIX,lovart.ai,AI Suite
+
+# Luma AI / Core
+DOMAIN-SUFFIX,lumalabs.ai,AI Suite
+
+# Manus / Core
+DOMAIN-SUFFIX,manus.im,AI Suite
+DOMAIN-SUFFIX,manuscdn.com,AI Suite
+
+# Meta AI / Core
+DOMAIN,ai.meta.com,AI Suite
+DOMAIN-SUFFIX,atmeta.com,AI Suite
+DOMAIN-SUFFIX,llama.com,AI Suite
+DOMAIN-SUFFIX,meta.ai,AI Suite
+
+# Midjourney / Core
+DOMAIN-SUFFIX,midjourney.com,AI Suite
+
+# Mistral AI / Core
+DOMAIN-SUFFIX,mistral.ai,AI Suite
+
+# Ollama / Core
+DOMAIN-SUFFIX,ollama.com,AI Suite
+
+# OpenAI / Core
+DOMAIN-SUFFIX,ai.com,AI Suite
+DOMAIN-SUFFIX,chat.com,AI Suite
+DOMAIN-SUFFIX,chatgpt.com,AI Suite
+DOMAIN-SUFFIX,chatgpt.livekit.cloud,AI Suite
+DOMAIN-SUFFIX,crixet.com,AI Suite
+DOMAIN-SUFFIX,oaistatic.com,AI Suite
+DOMAIN-SUFFIX,oaiusercontent.com,AI Suite
+DOMAIN-SUFFIX,openai.com,AI Suite
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI Suite
+DOMAIN-SUFFIX,openaicom.imgix.net,AI Suite
+DOMAIN-SUFFIX,sora.com,AI Suite
+DOMAIN-KEYWORD,chatgpt-async-webps-prod,AI Suite
+DOMAIN-KEYWORD,openai,AI Suite
+
+# OpenAI / Network
+IP-CIDR,199.47.142.0/23,AI Suite,no-resolve
+IP-CIDR,24.199.123.28/32,AI Suite,no-resolve
+IP-CIDR,64.23.132.171/32,AI Suite,no-resolve
+IP-CIDR6,2604:f20::/32,AI Suite,no-resolve
+IP-ASN,401518,AI Suite,no-resolve
+
+# OpenAI / Third-Party
+DOMAIN,openai-api.arkoselabs.com,AI Suite
+DOMAIN,openaiassets.blob.core.windows.net,AI Suite
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI Suite
+DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI Suite
+DOMAIN,production-openaicom-storage.azureedge.net,AI Suite
+DOMAIN-SUFFIX,api.statsig.com,AI Suite
+DOMAIN-SUFFIX,chatgpt.site,AI Suite
+DOMAIN-SUFFIX,host.livekit.cloud,AI Suite
+DOMAIN-SUFFIX,oaistatsig.com,AI Suite
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net,AI Suite
+DOMAIN-SUFFIX,turn.livekit.cloud,AI Suite
+
+# OpenArt / Core
+DOMAIN-SUFFIX,openart.ai,AI Suite
+
+# OpenClaw / Core
+DOMAIN-SUFFIX,openclaw.ai,AI Suite
+
+# OpenRouter / Core
+DOMAIN-SUFFIX,openrouter.ai,AI Suite
+
+# Otter.ai / Core
+DOMAIN-SUFFIX,otter.ai,AI Suite
+
+# Perplexity / Core
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com,AI Suite
+DOMAIN,pplx-res.cloudinary.com,AI Suite
+DOMAIN-SUFFIX,perplexity.ai,AI Suite
+DOMAIN-SUFFIX,perplexity.com,AI Suite
+DOMAIN-SUFFIX,pplx.ai,AI Suite
+
+# Phind / Core
+DOMAIN-SUFFIX,phind.com,AI Suite
+
+# Pika / Core
+DOMAIN-SUFFIX,pika.art,AI Suite
+
+# Poe / Core
+DOMAIN-SUFFIX,poe.com,AI Suite
+DOMAIN-SUFFIX,poecdn.net,AI Suite
+
+# Recraft / Core
+DOMAIN-SUFFIX,recraft.ai,AI Suite
+
+# Replicate / Core
+DOMAIN-SUFFIX,replicate.com,AI Suite
+DOMAIN-SUFFIX,replicate.delivery,AI Suite
+
+# Replit / Core
+DOMAIN-SUFFIX,repl.co,AI Suite
+DOMAIN-SUFFIX,repl.it,AI Suite
+DOMAIN-SUFFIX,replit.app,AI Suite
+DOMAIN-SUFFIX,replit.com,AI Suite
+DOMAIN-SUFFIX,replit.dev,AI Suite
+
+# Runway / Core
+DOMAIN-SUFFIX,runway.com,AI Suite
+DOMAIN-SUFFIX,runwayml.com,AI Suite
+
+# Sourcegraph / Core
+DOMAIN-SUFFIX,ampcode.com,AI Suite
+DOMAIN-SUFFIX,ampworkers.com,AI Suite
+DOMAIN-SUFFIX,cody.dev,AI Suite
+DOMAIN-SUFFIX,sourcegraph.com,AI Suite
+
+# Stability AI / Core
+DOMAIN-SUFFIX,stability.ai,AI Suite
+
+# Suno / Core
+DOMAIN-SUFFIX,suno.ai,AI Suite
+DOMAIN-SUFFIX,suno.com,AI Suite
+
+# Synthesia / Core
+DOMAIN-SUFFIX,synthesia.io,AI Suite
+
+# Tabnine / Core
+DOMAIN-SUFFIX,tabnine.com,AI Suite
+
+# Together AI / Core
+DOMAIN-SUFFIX,together.ai,AI Suite
+DOMAIN-SUFFIX,together.xyz,AI Suite
+
+# Udio / Core
+DOMAIN-SUFFIX,udio.com,AI Suite
+
+# v0 / Core
+DOMAIN-SUFFIX,v0.app,AI Suite
+DOMAIN-SUFFIX,v0.dev,AI Suite
+
+# Windsurf / Core
+DOMAIN-SUFFIX,codeium.com,AI Suite
+DOMAIN-SUFFIX,codeiumdata.com,AI Suite
+DOMAIN-SUFFIX,windsurf.build,AI Suite
+DOMAIN-SUFFIX,windsurf.com,AI Suite
+
+# xAI / Core
+DOMAIN-SUFFIX,grok.com,AI Suite
+DOMAIN-SUFFIX,grok.x.com,AI Suite
+DOMAIN-SUFFIX,x.ai,AI Suite
+
+# You.com / Core
+DOMAIN-SUFFIX,you.com,AI Suite
+
+# YouMind / Core
+DOMAIN-SUFFIX,youmind.ai,AI Suite
+DOMAIN-SUFFIX,youmind.com,AI Suite
+DOMAIN-SUFFIX,youmind.site,AI Suite
+
+# Zed / Core
+DOMAIN-SUFFIX,zed.dev,AI Suite
