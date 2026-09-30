@@ -1,0 +1,69 @@
+# Japan
+# DMM / DMM TV / FANZA
+DOMAIN-SUFFIX,dmm.com,Japan
+DOMAIN-SUFFIX,dmm.co.jp,Japan
+DOMAIN-SUFFIX,dmm-extension.com,Japan
+DOMAIN-SUFFIX,dmmapis.com,Japan
+DOMAIN-SUFFIX,dmmrex.com,Japan
+DOMAIN-SUFFIX,socdm.com,Japan
+
+# TVer
+DOMAIN-SUFFIX,tver.jp,Japan
+DOMAIN-SUFFIX,tver.co.jp,Japan
+DOMAIN-SUFFIX,dogatch.jp,Japan
+DOMAIN-SUFFIX,screens-lab.jp,Japan
+DOMAIN-SUFFIX,gorin.jp,Japan
+DOMAIN-SUFFIX,edge.api.brightcove.com,Japan
+
+# U-NEXT
+DOMAIN-SUFFIX,unext.jp,Japan
+DOMAIN-SUFFIX,nxtv.jp,Japan
+
+# Hulu Japan
+DOMAIN-SUFFIX,hulu.jp,Japan
+DOMAIN-SUFFIX,happyon.jp,Japan
+DOMAIN-SUFFIX,hjholdings.jp,Japan
+DOMAIN-SUFFIX,hjholdings.tv,Japan
+DOMAIN-SUFFIX,streaks.jp,Japan
+DOMAIN-SUFFIX,yb.uncn.jp,Japan
+DOMAIN-SUFFIX,hulujp.silveregg.net,Japan
+
+# FOD / Fuji TV On Demand
+DOMAIN-SUFFIX,fod.fujitv.co.jp,Japan
+DOMAIN-SUFFIX,fujitvfod.silveregg.net,Japan
+DOMAIN-SUFFIX,fod.azurewebsites.net,Japan
+DOMAIN,geocontrol1.stream.ne.jp,Japan
+
+# TELASA
+DOMAIN-SUFFIX,telasa.jp,Japan
+DOMAIN-SUFFIX,videopass.jp,Japan
+
+# Lemino
+DOMAIN-SUFFIX,lemino.docomo.ne.jp,Japan
+
+# dアニメストア
+DOMAIN-SUFFIX,animestore.docomo.ne.jp,Japan
+
+# radiko
+DOMAIN-SUFFIX,radiko.jp,Japan
+DOMAIN-SUFFIX,smartstream.ne.jp,Japan
+DOMAIN-SUFFIX,radionikkei.jp,Japan
+
+# WOWOW On Demand
+DOMAIN-SUFFIX,wowow.co.jp,Japan
+
+# NHK Plus / NHK ONE
+DOMAIN-SUFFIX,plus.nhk.jp,Japan
+DOMAIN-SUFFIX,location-plus.nhk.jp,Japan
+DOMAIN-SUFFIX,nhk-ondemand.jp,Japan
+
+# 日本现场演出 / 票务直播
+# 具体活动可能有地区限制
+DOMAIN-SUFFIX,stagecrowd.live,Japan
+DOMAIN-SUFFIX,streaming-plus.net,Japan
+DOMAIN-SUFFIX,fanstream.jp,Japan
+DOMAIN-SUFFIX,stream-pass.jp,Japan
+DOMAIN-SUFFIX,showroom-live.com,Japan
+DOMAIN-SUFFIX,nogidoga.com,Japan
+DOMAIN-SUFFIX,smash-media.jp,Japan
+DOMAIN-SUFFIX,smash-zap.com,Japan
